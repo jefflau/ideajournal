@@ -1,0 +1,15 @@
+<template name="header">
+	<header class="navbar">
+	  <div class="navbar-inner">
+	    <a class="brand" href="{{pathFor 'ideasJournal'}}">Ideas Journal</a>
+	    <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li><a href="{{pathFor 'ideaNew'}}">New</a></li>
+        </ul>
+      </div>
+	    <div class="login">
+	    {{> loginButtons align="right"}}
+	  	</div>
+	  </div>
+	</header>
+</template>
