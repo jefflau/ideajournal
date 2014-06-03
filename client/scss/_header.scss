@@ -1,0 +1,53 @@
+.header {
+	background: #222;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: $sidebar-width;
+}
+
+.brand {
+  color: white;
+  display: block;
+  margin: 15px 0;
+  font-size: 20px;
+  text-align: center;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.main-nav {
+
+}
+
+.idea-nav {
+  background: #111;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+	float: left;
+  width: 100%;
+  li {
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+
+    transition: 0.3s;
+    &:hover {
+      a {
+
+        text-decoration: none;
+      }
+    }
+    a {
+      color: white;
+    }
+  }
+}
+
+.login {
+  float: right;
+}

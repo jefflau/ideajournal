@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #303133;
+}
+
+.main-wrapper {
+	margin-left: $sidebar-width;
+}
+
+#main {
+  background: #eee;
+}

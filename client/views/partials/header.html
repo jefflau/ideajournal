@@ -1,0 +1,14 @@
+<template name="header">
+	<header class="header clearfix">
+		<nav class="main-nav">
+	    <a class="brand" href="{{pathFor 'ideasJournal'}}">Ideas Journal</a>
+	    
+      <ul class="idea-nav">
+        <li><a href="{{pathFor 'ideaNew'}}">New</a></li>
+      </ul>
+	  </nav>
+	  <div class="login">
+    	{{> loginButtons }}
+  	</div>
+	</header>
+</template>

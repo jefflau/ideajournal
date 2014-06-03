@@ -1,12 +1,57 @@
-body {
-  background: black; }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-.login {
-  float: right; }
+body {
+  background: #303133; }
+
+.main-wrapper {
+  margin-left: 180px; }
 
 #main {
   background: #eee; }
 
+.header {
+  background: #222;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 180px; }
+
+.brand {
+  color: white;
+  display: block;
+  margin: 15px 0;
+  font-size: 20px;
+  text-align: center; }
+  .brand:hover {
+    color: white;
+    text-decoration: none; }
+
+.idea-nav {
+  background: #111;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  width: 100%; }
+  .idea-nav li {
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .idea-nav li:hover a {
+      text-decoration: none; }
+    .idea-nav li a {
+      color: white; }
+
+.login {
+  float: right; }
+
+/* Ideas journal page */
 .idea {
   background: #eee;
   border-bottom: black solid 1px;
@@ -24,6 +69,10 @@ body {
 
 .details {
   float: right; }
+
+/* Create post */
+.main {
+  padding: 25px; }
 
 .loader,
 .loader:before,
@@ -62,19 +111,23 @@ body {
   0%,
   80%,
   100% {
+    -webkit-box-shadow: 0 0 #FFF;
     box-shadow: 0 0 #FFF;
     height: 4em; }
 
   40% {
+    -webkit-box-shadow: 0 -2em #ffffff;
     box-shadow: 0 -2em #ffffff;
     height: 5em; } }
 @keyframes load1 {
   0%,
   80%,
   100% {
+    -webkit-box-shadow: 0 0 #FFF;
     box-shadow: 0 0 #FFF;
     height: 4em; }
 
   40% {
+    -webkit-box-shadow: 0 -2em #ffffff;
     box-shadow: 0 -2em #ffffff;
     height: 5em; } }
