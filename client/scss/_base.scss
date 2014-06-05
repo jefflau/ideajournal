@@ -3,13 +3,15 @@
 }
 
 body {
+	color: white;
 	background: #303133;
+	font-family: Roboto;
 }
 
-.main-wrapper {
-	margin-left: $sidebar-width;
+.main {
+  margin-left: $sidebar-width;
 }
 
-#main {
-  background: #eee;
+.main-content {
+	background: rgba(0,0,0, 0.2);
 }

@@ -8,14 +8,14 @@
 }
 
 .brand {
-  color: white;
+  color: #F64C3E;
   display: block;
   margin: 15px 0;
   font-size: 20px;
   text-align: center;
+  text-decoration: none;
   &:hover {
     color: white;
-    text-decoration: none;
   }
 }
 
@@ -38,12 +38,11 @@
     transition: 0.3s;
     &:hover {
       a {
-
-        text-decoration: none;
       }
     }
     a {
       color: white;
+      text-decoration: none;
     }
   }
 }
