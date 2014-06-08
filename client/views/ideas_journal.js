@@ -1,5 +1,5 @@
 Template.ideasJournal.helpers({
   ideas: function () {
-    return Ideas.find();
+    return Ideas.find({}, {sort: {submitted: -1}});
   }
 });

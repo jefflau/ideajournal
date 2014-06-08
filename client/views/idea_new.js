@@ -9,6 +9,11 @@ Template.ideaNew.events({
 		}
 
 		idea._id = Ideas.insert(idea);
-		Router.go('ideaPage', idea);
+		Meteor.call('idea', idea, function(error, id){
+			if (error)
+				return alert(error.reason);
+
+			Router.go('ideaPage', idea);
+		});
 	}
 });

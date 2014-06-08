@@ -4,7 +4,7 @@
 	    <a class="brand" href="{{pathFor 'ideasJournal'}}">Ideas Journal</a>
 	    
       <ul class="idea-nav">
-        <li><a href="{{pathFor 'ideaNew'}}">New</a></li>
+        {{#if currentUser}}<li><a href="{{pathFor 'ideaNew'}}">New</a></li>{{/if}}
       </ul>
 	  </nav>
 	  <div class="login">
